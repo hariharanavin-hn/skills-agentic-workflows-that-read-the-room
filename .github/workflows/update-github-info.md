@@ -17,6 +17,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -33,6 +34,7 @@ Review recent official GitHub announcements and identify concise, practical upda
 1. Read `notes/mona-notes.md` and follow Mona's writing and review requirements.
 2. Fetch and review `https://github.blog/latest/` for recent GitHub Blog information.
 3. Fetch and review `https://github.blog/changelog/` for recent GitHub Changelog information.
+4. Fetch and review `https://awesome-copilot.github.com/workflows/` for relevant workflow patterns or examples that may improve Mona's GitHub Info updates.
 
 Use repository guidance and source material through GitHub repository API tools. Use web fetch for external public guidance. Do not use terminal, CLI, or sandboxed commands to inspect repository guidance or external sources.
 
@@ -57,6 +59,7 @@ Use a pull request title that mentions Mona or GitHub Info. In the pull request 
 - a brief summary of the proposed website changes;
 - the Mona notes applied;
 - the GitHub Blog and GitHub Changelog items consulted, with links;
+- any Awesome Copilot workflows patterns consulted, with links;
 - the exact files changed; and
 - a short review checklist stating that the change is limited to `site/content/github-info.md`, source links are present, and no unsupported claims were added.
 
